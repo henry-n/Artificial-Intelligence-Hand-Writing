@@ -1,1 +1,1 @@
-I was able to load in datasets but I have no idea how to parse them
+I created some functions to read and parse both the label datasets and the image datasets. The only problem is that the emnist training labels seem to only contain A-Z, no lowercases
