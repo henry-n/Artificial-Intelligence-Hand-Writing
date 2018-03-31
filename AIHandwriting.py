@@ -32,7 +32,7 @@ def image():
     file = open("images.txt", "w") # Image matrices will be printed to this file
     imageMatrix = numpy.zeros((imageSize[0], imageSize[1]), dtype = int) # Create a matrix to hold all the pixels of a single image
     imageMatrix = imageMatrix.flatten()
-    for index in range(int(itemsNum / 4)): # Iterate every pixel
+    for index in range(itemsNum): # Iterate every pixel
         imageMatrix[index % (imageSize[0] * imageSize[1])] = int.from_bytes(data.read(1), byteorder='big') # Read each pixel, byte by byte
 
         if ((index + 1) % (imageSize[0] * imageSize[1]) == 0): # Check if all pixels in one image have been processed
