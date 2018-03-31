@@ -1,1 +1,5 @@
 I created some functions to read and parse both the label datasets and the image datasets. The only problem is that the emnist training labels seem to only contain A-Z, no lowercases
+
+EDIT:
+I fixed the image() function so the matrices should be building correctly. You're still going to want to take a look at it though to make sure I have my nested for loops in the right order and stuff.
+I also added a section to cleanly print out the matrices to a file so we can try to see what they are supposed to represent.  
