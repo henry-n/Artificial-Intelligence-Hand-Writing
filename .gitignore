@@ -1,3 +1,6 @@
+#Other Files and Folders
+**/venv
+
 # Visual Studio
 *.pyproj
 *.sln
