@@ -1,5 +1,5 @@
 #Other Files and Folders
-**/venv
+/venv
 
 # Visual Studio
 *.pyproj
