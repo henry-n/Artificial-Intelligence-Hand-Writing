@@ -3,8 +3,7 @@ import struct
 import numpy as np
 
 """
-Loosely inspired by http://abel.ee.ucla.edu/cvxopt/_downloads/mnist.py
-which is GPL licensed.
+Stolen from https://gist.github.com/akesling/5358964 for testing
 """
 
 def read(dataset = "training", path = "."):

@@ -5,7 +5,7 @@ import mnist
 
 def test():
     training_data = list(mnist.read(dataset="training", path="./Datasets"))
-    label, pixels = training_data[500]
+    label, pixels = training_data[0] # Look at just the first one
     print(label)
     mnist.show(pixels)
 
