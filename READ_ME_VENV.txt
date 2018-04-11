@@ -7,7 +7,7 @@ pip install in virtual enviroment:
 pip install tensorflow
 pip install scipy
 pip install panda
-pip install numpy
+pip install matplotlib  // This is just for visualizing the datasets with mnist.py 
 
 
 For Tensorflow and Setting Up Virtual Enviroment:

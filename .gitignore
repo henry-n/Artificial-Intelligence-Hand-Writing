@@ -1,12 +1,11 @@
-
+#Folders
 /venv
+/Datasets
+/__pycache__
 
 # Visual Studio
 *.pyproj
 *.sln
-
-# Datasets
-Datasets
 
 # Windows image file caches
 Thumbs.db

@@ -1,6 +1,14 @@
 import scipy.io
 import numpy
 
+import mnist
+
+def test():
+    training_data = list(mnist.read(dataset="training", path="./Datasets"))
+    label, pixels = training_data[500]
+    print(label)
+    mnist.show(pixels)
+
 # Structure of image files
 # [offset] [type]          [value]          [description] 
 # 0000     32 bit integer  0x00000803(2051) magic number 
@@ -70,4 +78,6 @@ def label():
         char = chr(int.from_bytes(data.read(1), byteorder='big') + 64) # Idk if I'm interpreting this right
         labels.append(char)
 
-image()
+    print (labels[0:5])
+
+test()
