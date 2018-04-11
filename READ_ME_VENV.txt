@@ -30,7 +30,7 @@ looks something like this: ..\Artificial-Intelligence-Hand-Writing>
 2. Type 'venv\Scripts\activate
 looks something like this: ..\Artificial-Intelligence-Hand-Writing>venv\Scripts\activate
 
-3. should something like: (venv) C:\...
+3. should look something like: (venv) C:\...
 
 4. start developing in virtual enviroment type 'deactivate' to simply deactivate.
 
