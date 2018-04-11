@@ -7,7 +7,7 @@ pip install in virtual enviroment:
 pip install tensorflow
 pip install scipy
 pip install panda
-
+pip install numpy
 
 
 For Tensorflow and Setting Up Virtual Enviroment:
